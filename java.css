@@ -1,0 +1,55 @@
+.transform {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    /* transform: rotate(30deg); */
+}
+
+.transform:hover {
+    /* transform: rotate(60deg); */
+    transform: scale3d(60);
+    /* transform: skewX(60deg); */
+    /* transform: translate(30deg); */
+    /* transform: scaleX(30); */
+    transform: ;
+}   
+
+.transition {
+    height: 70px;
+    width: 20px;
+    background-color: black;
+    transition: font-size 15px; 3s;
+    transition-delay: 1s; 
+    transi
+}
+
+.transition h1 {
+    cursor: pointer;
+}
+
+.transition:hover {  
+   
+    font-size: 40px;
+    /* height: 80px; */
+}
+
+.animaton  {
+    /* width: 30px;
+    height: 30px; */
+    background-color: green;
+    animation: example 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    /* from{background-color: green}
+    to{background-color: red;} */
+    0%{background-color: green; color: yellow;}
+    20%{background-color: red; color: black;}
+    80%{background-color: black; color: white;}
+    50%{background-color: aqua; color: white;}
+    100%{background-color: yellow; color: black;}
+
+
+
+}
